@@ -1,0 +1,252 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.822);
+  position: fixed;
+  z-index: 1100;
+  top: 80px;
+}
+
+.container {
+  max-width: 450px;
+  height: 600px;
+  background: #f8f9fd;
+  background: linear-gradient(0deg,
+      rgb(255, 255, 255) 0%,
+      rgb(244, 247, 251) 100%);
+  border-radius: 6px;
+  padding: 25px 35px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 80px auto 0;
+  position: relative;
+  overflow-y: auto;
+  scrollbar-color: #ff9f0d;
+  scrollbar-width: thin;
+}
+
+.close_btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.close_btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.heading {
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: 900;
+  font-size: 42px;
+  color: #ff9f0d;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form_label {
+  font-size: 16px;
+  color: #464646;
+}
+
+.form_input {
+  width: 100%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: rgba(50, 50, 93, 0.087) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border: 2px solid transparent;
+  font-size: 16px;
+  color: #464646;
+  /* cursor: pointer; */
+}
+
+
+
+.form .input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input:focus {
+  outline: none;
+  border-inline: 2px solid #ff9f0d;
+}
+
+.form .forgot_password {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.form .forgot_password a {
+  font-size: 11px;
+  color: rgb(70, 70, 70);
+  text-decoration: none;
+}
+
+.form .login_button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(45deg,
+      rgb(241, 147, 6) 0%,
+      rgb(251, 197, 116) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: rgba(251, 197, 116, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .login_button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(251, 197, 116, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .login_button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(251, 197, 116, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.agreement {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.agreement a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+  font-size: 9px;
+}
+
+/* .ui_btn {
+  width: 100%;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  margin-top: 20px;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.ui_btn:hover {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+} */
+
+.ui_btn {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: Inter;
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  font-style: normal;
+  padding: 12px 0;
+  border: 1px solid #ff9f0d;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #ff9f0d;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.ui_btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #ff9f0d;
+  z-index: -1;
+}
+
+.ui_btn:hover, .ui_btn:focus {
+  color: white;
+}
+
+.ui_btn:hover:before, .ui_btn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.ui_btn:active {
+  transform: scale(0.9);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .heading {
+    font-size: 26px;
+  }
+
+  .form {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    top: 50px;
+  }
+
+  .container {
+    max-width: 350px;
+  }
+
+  .form_input {
+    padding: 11px 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .heading {
+    font-size: 22px
+  }
+}

@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+.main {
+    width: 68.750vw;
+    margin: 120px auto;
+}
+
+.main h2 {
+    color: var(--Gray-1, #333);
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+}
+
+.main .description {
+    color: var(--Gray-2, #4F4F4F);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 4px 0 56px;
+}
+
+.main .question_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main .question_container details {
+    width: 33.750vw;
+    height: auto;
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: var(--Secondery-color, #FAF7F2);
+    color: black;
+}
+
+.main .question_container details summary::-webkit-details-marker {
+    display: none;
+
+}
+
+.main .question_container details summary::after {
+    content: url(../assets/gallery/icons/FAQ/add-circle.png);
+    float: right;
+    margin-left: auto;
+}
+
+.main .question_container details[open] summary::after {
+    content: url(../assets/gallery/icons/FAQ/minus-cirlce.png);
+}
+
+.main .question_container details summary {
+    display: flex;
+    align-items: center;
+    color: var(--Gray-1, #333);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.main .question_container details p {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}

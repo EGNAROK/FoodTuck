@@ -1,0 +1,199 @@
+.menu_page {
+    width: 68.750vw;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.menu_page .menu_items, .menu_page .menu_items_other {
+    width: 100%;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_page .menu_items_other {
+    flex-direction: row-reverse;
+}
+
+.menu_page .menu_items .main_img, .menu_page .menu_items_other .main_img {
+    width: 23.333vw;
+    height: 32.552vw;
+}
+
+.menu_page .menu_list {
+    width: 39.583vw;
+}
+
+.menu_page .menu_list h2 {
+    color: var(--Gray-1, #333);
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 8px 0 0;
+}
+
+.menu_page .menu_list .menu_list_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E0E0E0;
+    border-style: dotted;
+    margin-top: 24px;
+    padding-bottom: 16px;
+}
+
+.menu_page .menu_list .menu_list_item h3 {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.menu_page .menu_list .menu_list_item .description {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 8px 0;
+}
+
+.menu_page .menu_list .menu_list_item .calories {
+    color: var(--Gray-3, #828282);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu_page .menu_list .menu_list_item .price {
+    color: var(--Primary-color, #FF9F0D);
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1440px) {
+    .menu_page .menu_items .main_img, .menu_page .menu_items_other .main_img {
+        width: 26.333vw;
+        height: 39.552vw;
+    }
+
+    .menu_page .menu_list h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu_page {
+        width: 80vw;
+    }
+
+    .menu_page .menu_items .main_img, .menu_page .menu_items_other .main_img {
+        width: 37.333vw;
+        height: 54.552vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu_page {
+        width: 80vw;
+        padding-top: 100px;
+    }
+
+    .menu_page .menu_items, .menu_page .menu_items_other {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .main_img_box {
+        width: 100%;
+        padding: 10px 50px;
+        border-right: 2px solid #E0E0E0;
+        border-bottom: 2px solid #E0E0E0;
+        border-style: dotted;
+    }
+
+    .menu_page .menu_items .main_img, .menu_page .menu_items_other .main_img {
+        width: 310px;
+        height: 380px;
+        border-radius: 6px;
+
+    }
+
+    .menu_page .menu_list {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .menu_page .menu_list h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .menu_page .menu_list .menu_list_item {
+        margin-top: 12px;
+        padding-bottom: 8px;
+    }
+
+    .menu_page .menu_list .menu_list_item h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu_page {
+        width: 100%;
+        padding: 80px 45px 0;
+    }
+
+    .menu_page .menu_list h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu_page {
+        width: 100%;
+        padding: 80px 15px 0;
+    }
+
+    .menu_page .menu_items, .menu_page .menu_items_other {
+        margin-bottom: 80px;
+    }
+
+    .menu_page .menu_list h2 {
+        font-size: 26px;
+        line-height: 32px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu_page {
+        padding-top: 60px;
+    }
+
+    .menu_page .menu_items, .menu_page .menu_items_other {
+        margin-bottom: 60px;
+    }
+
+    .main_img_box {
+        padding: 10px;
+
+    }
+
+    .menu_page .menu_items .main_img, .menu_page .menu_items_other .main_img {
+        width: 260px;
+        height: 330px;
+    }
+}

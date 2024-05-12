@@ -1,0 +1,215 @@
+
+{
+    "menuList": [
+        {   
+            "id": "1",
+            "type": "burger",
+            "image":"https://www.rotellasbakery.com/wp-content/uploads/2015/03/marinatedBarChicken.jpg",
+            "title": "Burger",
+            "price": "21.00"
+        },
+        {
+            "id": "2",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "3",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "4",
+            "type": "burger",
+            "image":"https://www.rotellasbakery.com/wp-content/uploads/2015/03/marinatedBarChicken.jpg",
+            "title": "Burger",
+            "price": "21.00"
+        },
+        {
+            "id": "5",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "6",
+            "type": "burger",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/turkeyWheatCiabatta.jpg",
+            "title": "Country Burger",
+            "price": "25.00"
+        },
+        {
+            "id": "7",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "8",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "9",
+            "type": "burger",
+            "image":"https://www.rotellasbakery.com/wp-content/uploads/2015/03/marinatedBarChicken.jpg",
+            "title": "Burger",
+            "price": "21.00"
+        },
+        {
+            "id": "10",
+            "type": "burger",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/turkeyWheatCiabatta.jpg",
+            "title": "Country Burger",
+            "price": "25.00"
+        },
+        {
+            "id": "11",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "12",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "13",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "14",
+            "type": "burger",
+            "image":"https://www.rotellasbakery.com/wp-content/uploads/2015/03/marinatedBarChicken.jpg",
+            "title": "Burger",
+            "price": "21.00"
+        },
+        {
+            "id": "15",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "16",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "17",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "18",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "19",
+            "type": "burger",
+            "image":"https://www.rotellasbakery.com/wp-content/uploads/2015/03/marinatedBarChicken.jpg",
+            "title": "Burger",
+            "price": "21.00"
+        },
+        {
+            "id": "20",
+            "type": "burger",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/turkeyWheatCiabatta.jpg",
+            "title": "Country Burger",
+            "price": "25.00"
+        },
+        {
+            "id": "21",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "22",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "23",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "24",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "25",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "26",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        },
+        {
+            "id": "27",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "28",
+            "type": "drink",
+            "image": "https://www.barbizmag.com/wp-content/uploads/2019/10/AutumnBloodOrangeBitter-300x250.jpg",
+            "title": "Drink",
+            "price": "15.00"
+        },
+        {
+            "id": "29",
+            "type": "sendwiches",
+            "image": "https://www.rotellasbakery.com/wp-content/uploads/2015/03/sourdoughAvacadoVeggie.jpg",
+            "title": "Sendwiches",
+            "price": "19.00"
+        },
+        {
+            "id": "30",
+            "type": "pizza",
+            "image": "https://padariabandeirantes4.com.br/yl/wp-content/uploads/2015/09/pizza1-300x250.jpg",
+            "title": "Pizza",
+            "price": "43.00"
+        }
+    ]
+}

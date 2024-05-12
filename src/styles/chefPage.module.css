@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.chefs {
+    width: 68.750vw;
+    height: auto;
+    margin: 120px auto 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chefs .chef_card {
+    width: 16.250vw;
+    height: auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.chefs .chef_card img {
+    width: 16.250vw;
+}
+
+.chefs .chef_card h3 {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 10px 0 5px;
+}
+
+.chefs .chef_card h4 {
+    color: var(--Gray-1, #333);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+    .chefs {
+        width: 80vw;
+    }
+    
+    .chefs .chef_card {
+        width: 19.25vw;
+    }
+    
+    .chefs .chef_card img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .chefs {
+        width: 80vw;
+        margin: 100px auto;
+    }
+    
+    .chefs .chef_card {
+        width: 23.25vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chefs {
+        width: 100%;
+        padding: 0 15px;
+        margin: 80px auto;
+    }
+    
+    .chefs .chef_card {
+        width: 22.25vw;
+    }
+    
+    .chefs .chef_card h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    
+    .chefs .chef_card h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .chefs {
+        width: 100%;
+        padding: 0 15px;
+        margin: 60px auto;
+    }
+    
+    .chefs .chef_card {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .chefs .chef_card {
+        width: 30vw;
+    }
+    
+    .chefs .chef_card h3 {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    
+    .chefs .chef_card h4 {
+        font-size: 12px;
+    }   
+}

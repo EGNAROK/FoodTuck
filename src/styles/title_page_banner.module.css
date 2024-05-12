@@ -1,0 +1,115 @@
+.background_image {
+    width: 100%;
+    height: 410px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
+        url(../assets/gallery/images/title_page_banner.images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 198px 0;
+}
+
+.background_image .title_page {
+    /* width: 260px; */
+    /* height: auto; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.background_image .title_page h2 {
+    color: var(--fffffff, #FFF);
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.background_image .title_page span {
+    color: var(--fffffff, #FFF);
+}
+
+.background_image .title_page .aside {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.background_image .title_page .aside .link {
+    color: var(--fffffff, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.background_image .title_page .aside span {
+    margin: 0 10px;
+}
+
+.background_image .title_page .aside p {
+    color: var(--Primary-color, #FF9F0D);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1440px) {    
+    .background_image .title_page h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .background_image {
+        height: 340px;
+        padding: 160px 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .background_image {
+        height: 300px;
+        padding: 140px 0;
+    }
+    
+    .background_image .title_page h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .background_image {
+        height: 260px;
+        padding: 120px 0;
+    }
+    
+    .background_image .title_page h2 {
+        font-size: 26px;
+    }
+    
+    .background_image .title_page .aside .link {
+        font-size: 16px;
+    }
+    
+    .background_image .title_page .aside span {
+        margin-top: 2px;
+    }
+    
+    .background_image .title_page .aside p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}

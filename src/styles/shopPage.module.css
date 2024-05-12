@@ -1,0 +1,355 @@
+.shop_page {
+    width: 100%;
+}
+
+.shop_page .main_shop_container {
+    width: 68.750vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation {
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-6, #F2F2F2);
+    padding: 24px 32px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .search_dishes {
+    width: 100%;
+    /* background: rgba(255, 159, 13, 0.10); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .search_dishes input {
+    width: 100%;
+    background: rgba(255, 159, 13, 0.10);
+    color: var(--Gray-3, #828282);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    padding: 11px 0 11px 20px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .search_dishes img {
+    background-color: #FF9F0D;
+    padding: 13px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .food_category {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .food_category h5 {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 24px 0;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .food_category label {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .food_category label input {
+    margin-right: 8px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .video {
+    width: 100%;
+    /* height: 24.479vw; */
+    background-color: black;
+    border-radius: 6px;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation video{
+    width: 100%;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+
+.shop_page .main_shop_container .aside_bar_navigation .price_filter h5 {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 24px 0 16px;
+}
+
+@media screen and (max-width: 1440px) {    
+    .shop_page .main_shop_container .aside_bar_navigation {
+        padding: 24px 12px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input {
+        font-size: 14px;
+        padding: 11px 0 11px 14px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes img {
+        padding: 13px 11px;
+    }
+}
+
+@media screen and (max-width: 1200px) {    
+    .shop_page .main_shop_container {
+        width: 80vw;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation {
+        width: 20vw;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input {
+        padding: 11px 0 11px 12px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes img {
+        padding: 13px 11px;
+    }
+}
+
+@media screen and (max-width: 992px) {    
+    .shop_page .main_shop_container {
+        /* width: 72.518vw; */
+        margin: 100px auto;
+        /* flex-direction: column-reverse; */
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input {
+        padding: 8px 0 8px 8px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input::placeholder {
+        font-size: 12px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes img {
+        padding: 9px 8px;
+    }
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .search_dishes {
+        width: 370px;
+        margin: 12px 0;
+    } */
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .food_category {
+        width: 370px;
+        margin: 12px 0;
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+    
+    .shop_page .main_shop_container .aside_bar_navigation .food_category h5 {
+        font-size: 18px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .food_category label {
+        font-size: 14px;
+    }
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .video {
+        display: none;
+    } */
+
+    /* .shop_page .main_shop_container .aside_bar_navigation .price_filter {
+        width: 370px;
+    } */
+
+    /* .shop_page .main_shop_container .aside_bar_navigation .price_filter label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+    
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .shop_page .main_shop_container {
+        width: 100%;
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation {
+        width: 25vw;
+        padding: 12px 6px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input {
+        padding: 4px 0 4px 4px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input::placeholder {
+        font-size: 10px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes img {
+        padding: 5px 6px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .food_category h5 {
+        font-size: 14px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .food_category label {
+        font-size: 12px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter h5 {
+        font-size: 14px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter {
+        width: 92%;
+    } 
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter span{
+        margin-left: 4px;
+    } 
+    
+}
+
+@media screen and (max-width: 576px) {    
+    .shop_page .main_shop_container {
+        width: 100%;
+        padding: 0 15px;   
+        flex-direction: column-reverse;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes {
+        width: 80vw;
+        margin: 12px 0;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .search_dishes input::placeholder {
+        font-size: 14px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .food_category {
+        width: 80vw;
+        margin: 12px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .food_category h5 {
+        font-size: 14px;
+        margin: 0;
+        line-height: 16px;
+    }
+    
+    .shop_page .main_shop_container .aside_bar_navigation .food_category label {
+        font-size: 12px;
+        margin: 0;
+        line-height: 12px;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .video {
+        display: none;
+    }
+
+    /* .shop_page .main_shop_container .aside_bar_navigation .price_filter {
+        width: 370px;
+    } */
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter {
+        width: 80vw;
+        margin: 0 auto;
+        
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter label {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter h5 {
+        width: 50%;
+    }
+
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter span{
+        margin-left: 4px;
+    } 
+}
+
+@media screen and (max-width: 480px) {    
+    .shop_page .main_shop_container .aside_bar_navigation {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .search_dishes {
+        width: 100%;
+    } */
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .food_category {
+        width: 100%;
+        
+    } */
+
+    .shop_page .main_shop_container .aside_bar_navigation .food_category h5 {
+        display: none;
+    }
+    
+    /* .shop_page .main_shop_container .aside_bar_navigation .food_category label {
+        font-size: 14px;
+    } */
+
+    /* .shop_page .main_shop_container .aside_bar_navigation .price_filter {
+        width: 100%;
+    } */
+    
+    .shop_page .main_shop_container .aside_bar_navigation .price_filter h5 {
+        width: 55%;
+        font-size: 12px;
+        line-height: 14px;
+    }    
+}

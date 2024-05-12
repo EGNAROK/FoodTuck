@@ -1,0 +1,201 @@
+.contact_page {
+    width: 100%;
+}
+
+.contact_page .background {
+    width: 100%;
+    height: auto;
+    background-color: #0D0D0D;
+}
+
+.contact_page .map_container {
+    width: 68.750vw;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    flex-shrink: 0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.683);
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+.contact_page .map_container .aside {
+    width: 27vw;
+    margin-left: 12px;
+}
+
+.contact_page .map_container .aside .adress {
+    border: 1px solid #FF9F0D;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px;
+    list-style: none;
+    border-radius: 6px;
+}
+
+.contact_page .map_container .aside .adress span {
+    color: #FF9F0D;
+}
+
+.contact_page .map_container .aside .adress li {
+    margin-top: 12px;
+}
+
+.contact_page .map_container .aside .adress li:first-child {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.contact_page .map_container .aside .contacts {
+    border: 1px solid #FF9F0D;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    padding: 12px;
+    list-style: none;
+    border-radius: 6px;
+}
+
+.contact_page .map_container .aside .contacts li {
+    margin-top: 12px;
+}
+
+.contact_page .map_container .aside .contacts li:first-child {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact_page .map_container .aside .contacts span {
+    color: #FF9F0D;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1440px) {    
+    .contact_page .map_container .aside .adress {
+        padding: 8px;
+    }
+    
+    .contact_page .map_container .aside .adress li:first-child {
+        font-size: 22px;
+    }
+    
+    .contact_page .map_container .aside .contacts {
+        padding: 8px;
+        font-size: 16px;
+    }
+    
+    .contact_page .map_container .aside .contacts li:first-child {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1200px) {    
+    .contact_page .map_container {
+        width: 80vw;
+        flex-direction: column;
+    }
+    
+    .contact_page .map_container .aside {
+        width: 100%;
+        margin-top: 32px;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .contact_page .map_container .aside .adress {
+        width: 45%;
+        padding: 0;
+        border: none;
+    }
+    
+    .contact_page .map_container .aside .contacts {
+        width: 45%;
+        padding: 0;
+        border: none;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {    
+    .contact_page .map_container {
+        /* width: 72.518vw; */
+        padding-top: 100px;        
+    }
+    
+    .contact_page .map_container .aside {
+        justify-content: space-between;
+    }
+    
+    .contact_page .map_container .aside .adress {
+        height: 200px;
+    }
+    
+    .contact_page .map_container .aside .adress li:first-child {
+        font-size: 18px;
+    }
+    
+    .contact_page .map_container .aside .contacts {
+        height: 160px;
+    }
+    
+    .contact_page .map_container .aside .contacts li:first-child {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .contact_page .map_container {
+        width: 100%;
+        height: 750px;
+        padding: 80px 60px 0;
+    }
+    
+    .contact_page .map_container .aside {
+        flex-direction: column;
+    }
+    
+    .contact_page .map_container .aside .adress {
+        width: 70%;
+        height: auto;
+        margin: 0 auto 42px;
+        text-align: center;
+    }
+    
+    .contact_page .map_container .aside .contacts {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {    
+    .contact_page .map_container {
+        width: 100%;
+        padding: 80px 15px 0;
+    }
+    
+    .contact_page .map_container .aside .adress {
+        width: 75%;
+        height: auto;
+        margin-bottom: 32px;
+    }
+    
+    .contact_page .map_container .aside .adress li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {    
+    .contact_page .map_container {
+        padding-top: 60px;
+    }
+}

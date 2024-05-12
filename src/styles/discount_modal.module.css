@@ -1,0 +1,157 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.822);
+    position: fixed;
+    z-index: 1100;
+    top: 0px;
+    font-family: Inter;
+}
+
+/* .discount_container {
+    width: 250px;
+    height: auto;
+    padding: 24px 32px 15px;
+    position: relative;
+    margin: 200px auto;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.description {
+    width: 100%;
+    border: 1px solid #FF9F0D;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.discount_container p {
+    font-size: 20px;
+    color: black;
+    line-height: 26px;
+}
+
+.discount_container  span {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #FF9F0D;
+    margin-top: 42px;
+}
+
+.close_btn { 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  } */
+
+  .card {
+    width: 100%;
+    height: 100%;
+    /* margin: 400px auto; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .close_btn { 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  } 
+
+  .close_btn img {
+    width: 15px;
+  }
+  
+  .code_container {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 5px solid #ff9900;
+    padding: 16px;
+    box-shadow: 1px 1px 5px 4px #020202a8;
+  }
+  
+  .line {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 4px 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  .code_comment {
+    font-family: inter;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .code_variable {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff9900;
+  }
+  
+  
+  
+  /* Animación */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .float_animation {
+    animation: float 2s ease-in-out infinite;
+  }
+  
+
+  @media screen and (max-width: 576px) {
+    .code_container {
+      width: 180px;      
+      padding: 8px;      
+    }
+
+    .code_comment {
+      font-family: inter;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .code_variable {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #ff9900;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .code_container {
+    bottom: 100px;
+    right: 25px;
+  }
+}

@@ -1,0 +1,261 @@
+.our_chef {
+    width: 68.750vw;
+    margin: 120px auto 0;
+}
+
+.our_chef h3 {
+    color: var(--Primary-color, #ff9f0d);
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.our_chef h2 {
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.our_chef h2 span {
+    color: #ff9f0d;
+}
+
+.our_chef .our_chef {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    list-style: none;
+}
+
+.our_chef .our_chef img {
+    width: 16.250vw;
+    height: 20.365vw;
+}
+
+.our_chef .our_chef li {
+    position: relative;
+}
+
+.our_chef .our_chef li p {
+    width: 181px;
+    height: 67px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    flex-shrink: 0;
+    border-radius: 0px 0px 0px 6px;
+    background: #fff;
+    color: var(--Gray-1, #333);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 6px 0 9px 20px;
+}
+
+.our_chef .our_chef li p span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.our_chef .link {
+    width: 155px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid #ff9f0d;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 13px 40px;
+    margin: 56px auto 120px;
+}
+
+@media screen and (max-width: 1440px) {    
+    .our_chef h3 {
+        font-size: 28px;
+    }
+    
+    .our_chef h2 {
+        font-size: 42px;
+    }
+    
+    .our_chef .our_chef li p {
+        width: 160px;
+        padding: 6px 0 9px 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .our_chef {
+        width: 80vw;
+    }
+    
+    .our_chef .our_chef img {
+        width: 18.25vw;
+        height: 23vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .our_chef {
+        width: 80vw;
+        margin-top: 100px;
+    }
+    
+    .our_chef h3 {
+        font-size: 24px;
+    }
+    
+    .our_chef h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .our_chef .our_chef {
+        margin-top: 32px;
+    }
+    
+    .our_chef .our_chef img {
+        width: 18.937vw;
+        height: 22.188vw;
+    }
+    
+    .our_chef .our_chef li p {
+        width: 122px;
+        height: 60px;
+        font-size: 12px;
+        padding: 6px 0 9px 8px;
+    }
+    
+    .our_chef .our_chef li p span {
+        font-size: 16px;
+    }
+    
+    .our_chef .link {
+        margin: 42px auto 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our_chef {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 80px;
+    }
+
+    .our_chef h3 {
+        font-size: 22px;
+    }
+    
+    .our_chef h2 {
+        font-size: 28px;
+    }
+    
+    .our_chef .our_chef {
+        width: 90%;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        padding: 0 0 12px;
+    }
+    
+    .our_chef .our_chef img {
+        width: 150px;
+        height: 190px;
+        margin: 8px; 
+    }
+
+    .our_chef .our_chef img:first-child {
+        margin-left: 0;
+    }
+    
+    .our_chef .our_chef li p {
+        width: 115px;
+        height: auto;
+        padding: 2px 0 3px 6px;
+        bottom: 0;
+        left: 0;
+        font-size: 10px;
+    }
+    
+    .our_chef .our_chef li p span {
+        font-size: 14px;
+    }
+    
+    .our_chef .link {
+        width: 140px;
+        height: 44px;  
+        font-size: 16px;
+        line-height: 24px;
+        padding: 11px 0;
+        margin-top: 32px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .our_chef {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .our_chef h3 {
+        font-size: 20px;
+    }
+    
+    .our_chef h2 {
+        font-size: 26px;
+        line-height: 32px;
+        margin: 0;
+    }
+    
+    .our_chef .our_chef {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .our_chef {
+        margin-top: 60px;
+    }
+    
+    .our_chef h3 {
+        font-size: 18px;
+    }
+    
+    .our_chef .our_chef img {
+        width: 120px;
+        height: 160px;
+        margin: 8px;
+    }
+    
+    .our_chef .our_chef li p {
+        bottom: 12px;
+    }
+    
+    .our_chef .link {
+        width: 120px;
+        height: 32px;
+        padding: 5px 0;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }    
+}

@@ -1,0 +1,215 @@
+.review_section {
+    width: 68.750vw;
+    height: auto;
+    margin: 0 auto 120px;
+}
+
+.review_section h3 {
+    color: var(--Primary-color, #FF9F0D);
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.review_section h2 {
+    color: var(--fffffff, #FFF);
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 8px 0 120px;
+}
+
+.review_section h2 span {
+    color: #FF9F0D;
+}
+
+.review_carousel {
+    width: 45.313vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review_card {
+    width: 100%;
+    position: relative;
+    padding: 30px 85px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 55px;
+    background-image: url(../assets/gallery/images/review_carousel/unsplash_Ioq6qEibtbU.png);
+    background-repeat: no-repeat;
+    background-position: 20.833vw 50px;
+    box-shadow: 0px 0px 80px 0px rgba(205, 205, 205, 0.25);
+}
+
+.review_carousel .review_card .photo_user {
+    margin-bottom: 32px;
+}
+
+.review_carousel .review_card .photo_user img {
+    width: 135px;
+    height: 135px;
+    border-radius: 100px;
+}
+
+.review_carousel .review_card .review_user p {
+    color: var(--gray-2, #4F4F4F);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 32px 0;
+}
+
+.review_carousel .review_card .review_user h4 {
+    color: var(--Gray-1, #333);
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 16px 0 8px;
+}
+
+.review_carousel .review_card .review_user h5 {
+    color: var(--Gray-3, #828282);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1440px) {    
+    .review_section h3 {
+        font-size: 28px;
+    }
+    
+    .review_section h2 {
+        font-size: 42px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .review_section {
+        width: 80vw;
+    }
+    
+    .review_section h2 {
+        margin-bottom: 80px;
+    }
+    
+    .review_carousel {
+        width: 50.313vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .review_section {
+        width: 80vw;
+        margin-bottom: 100px;
+    }
+    
+    .review_section h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .review_section h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    .review_carousel {
+        width: 70.313vw;
+    }
+    
+    .review_card {
+        padding: 15px 30px;
+    }
+
+    .review_carousel .review_card .review_user img {
+        display: none;
+    }
+    
+    .review_carousel .review_card .review_user p {
+        margin: 16px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .review_section {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 80px;
+    }
+    
+    .review_section h3 {
+        font-size: 22px;
+    }
+    
+    .review_section h2 {
+        font-size: 28px;        
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .review_section {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .review_section h3 {
+        font-size: 20px;
+    }
+    
+    .review_section h2 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .review_carousel {
+        width: 80%;
+    }
+    
+    .review_card {
+        padding: 15px;
+    }
+    
+    .review_carousel .review_card .review_user p {
+        font-size: 14px;
+        margin: 0 0 8px;
+    }
+    
+    .review_carousel .review_card .review_user h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .review_section {
+        margin-bottom: 60px;
+    }
+    
+    .review_section h3 {
+        font-size: 18px;
+    }
+    
+    .review_carousel {
+        width: 90%;
+    }
+}

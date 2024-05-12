@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+    width: 68.750vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.container h3 {
+    color: var(--Primary-color, #FF9F0D);
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.container h2 {
+    font-kerning: none;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+}
+
+.container h2 span {
+    color: #FF9F0D;
+}
+
+.post {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post .card {
+    width: 22.135vw;
+    display: block;
+    border: 1px solid var(--fffffff, #FFF);
+}
+
+.post .card .main_photo {
+    width: 22.031vw;
+    height: 18.125vw;
+}
+
+.post .card .contant {
+    /* width: 338px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 42px;
+}
+
+.post .card .contant p {
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 16px 0 32px;
+}
+
+.post .card .contant .date {
+    color: var(--Primary-color, #FF9F0D);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.post .card .contant .interface {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post .card .contant .interface .link {
+    text-decoration: none;
+    color: var(--fffffff, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.post .card .contant .interface .btn_img {
+    width: 76px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.post .card .contant .interface .btn_img img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {    
+    .container h3 {
+        font-size: 28px;
+    }
+    
+    .container h2 {
+        font-size: 42px;
+    }
+    
+    .post .card .contant {
+        padding: 18px 22px;
+    }
+    
+    .post .card .contant p {
+        font-size: 22px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 80vw;
+    }
+    
+    .container h3 {
+        font-size: 28px;
+    }
+    
+    .container h2 {
+        font-size: 42px;
+    }
+    
+    .post {
+        margin-top: 42px;
+    }
+    
+    .post .card {
+        width: 26vw;
+    }
+    
+    .post .card .main_photo {
+        width: 100%;
+        height: 24vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 80vw;
+        padding: 100px 0;
+    }
+    
+    .container h3 {
+        font-size: 24px;
+    }
+    
+    .container h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .post {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    
+    .post .card {
+        width: auto;
+        height: auto;
+        display: flex;
+        margin-bottom: 16px;
+    }
+    
+    .post .card .main_photo {
+        width: 25vw;
+        height: 25vw;
+    }
+    
+    .post .card .contant p {
+        font-size: 20px;
+        margin-bottom: 12px;
+        line-height: 24px;
+    }
+    
+    .post .card .contant .interface .link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 80px 15px;
+    }
+    
+    .container h3 {
+        font-size: 22px;
+    }
+    
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .post .card {
+        width: auto;
+        height: auto;
+        display: flex;
+        margin: 0 auto 16px;
+        
+    }
+    
+    .post .card .contant {
+        padding: 8px;
+    }
+    
+    .post .card .contant p {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .post .card .main_photo {
+        width: 22vw;
+        height: 22vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 80px 15px 0;
+    }
+    
+    .container h3 {
+        font-size: 20px;
+    }
+    
+    .container h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    .post .card {
+        width: 90%;
+        margin: 0 auto 12px;
+    }
+    
+    .post .card .main_photo {
+        width: 27.5vw;
+        height: 27.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 60px 15px 0;
+    }
+    
+    .container h3 {
+        font-size: 18px;
+    }
+    
+    .post .card {
+        width: 50%;
+        flex-direction: column;
+    }
+    
+    .post .card .main_photo {
+        width: 100%;
+        height: 38vw;
+    }
+    
+    .post .card .contant p {
+        font-size: 14px;   
+    }
+    
+    .post .card .contant .interface .link {
+        font-size: 12px;
+    } 
+}
